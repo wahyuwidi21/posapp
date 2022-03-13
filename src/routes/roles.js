@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import roleHandler from '../modules/roles/api_handlers';
-import jwtAuth from '../helpers/jwt_auth';
-import basicAuth from '../helpers/basic_auth';
+import roleHandler from '../modules/roles/api_handlers.js';
+import jwtAuth from '../helpers/jwt_auth.js';
+import basicAuth from '../helpers/basic_auth.js';
 
 const router = Router();
 

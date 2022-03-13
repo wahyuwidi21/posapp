@@ -1,5 +1,5 @@
-import Role from './repositories';
-import utils from '../../helpers/utils';
+import Role from './repositories.js';
+import utils from '../../helpers/utils.js';
 
 export default class QueryRole {
     constructor() {

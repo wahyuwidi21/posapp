@@ -1,7 +1,7 @@
-import schema from './model_handler';
-import utils from '../../helpers/utils';
-import CommandUser from './command_domain';
-import QueryUser from './query_domain';
+import schema from './model_handler.js';
+import utils from '../../helpers/utils.js';
+import CommandUser from './command_domain.js';
+import QueryUser from './query_domain.js';
 import formidable from 'formidable';
 
 const command = new CommandUser();

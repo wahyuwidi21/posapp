@@ -1,6 +1,6 @@
-import utils from '../../helpers/utils';
-import err from '../../helpers/error';
-import brand from '../../models/brand';
+import utils from '../../helpers/utils.js';
+import err from '../../helpers/error.js';
+import brand from '../../models/brand.js';
 
 class Brand {
 

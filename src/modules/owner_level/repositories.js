@@ -1,6 +1,6 @@
-import OwnerLevel from '../../models/owner_level';
-import utils from '../../helpers/utils';
-import err from '../../helpers/error';
+import OwnerLevel from '../../models/owner_level.js';
+import utils from '../../helpers/utils.js';
+import err from '../../helpers/error.js';
 
 class OwnerLevels {
 

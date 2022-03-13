@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import ownerLevelHandler from '../modules/owner_level/api_handlers';
-import jwtAuth from '../helpers/jwt_auth';
-import basicAuth from '../helpers/basic_auth';
+import ownerLevelHandler from '../modules/owner_level/api_handlers.js';
+import jwtAuth from '../helpers/jwt_auth.js';
+import basicAuth from '../helpers/basic_auth.js';
 
 const router = Router();
 

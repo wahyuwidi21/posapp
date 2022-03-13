@@ -1,7 +1,7 @@
 
-import utils from '../../helpers/utils';
-import err from '../../helpers/error';
-import User from '../../models/users'
+import utils from '../../helpers/utils.js';
+import err from '../../helpers/error.js';
+import User from '../../models/users.js'
 
 class Users {
   async deleteOneUser(params) {

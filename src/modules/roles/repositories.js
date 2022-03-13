@@ -1,6 +1,6 @@
-import Role from '../../models/roles';
-import utils from '../../helpers/utils';
-import err from '../../helpers/error';
+import Role from '../../models/roles.js';
+import utils from '../../helpers/utils.js';
+import err from '../../helpers/error.js';
 
 class Roles {
 

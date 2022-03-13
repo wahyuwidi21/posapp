@@ -1,7 +1,7 @@
-import schema from './model_handler';
-import utils from '../../helpers/utils';
-import CommandBrand from './command_domain';
-import QueryBrand from './query_domain';
+import schema from './model_handler.js';
+import utils from '../../helpers/utils.js';
+import CommandBrand from './command_domain.js';
+import QueryBrand from './query_domain.js';
 
 const command = new CommandBrand();
 const query = new QueryBrand();

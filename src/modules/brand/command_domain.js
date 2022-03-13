@@ -1,6 +1,6 @@
-import utils from '../../helpers/utils';
-import err from '../../helpers/error';
-import QueryBrand from './query_domain';
+import utils from '../../helpers/utils.js';
+import err from '../../helpers/error.js';
+import QueryBrand from './query_domain.js';
 import moment from 'moment-timezone';
 
 export default class CommandBrand {

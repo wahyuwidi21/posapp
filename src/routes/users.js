@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import userHandler from '../modules/users/api_handlers';
-import basicAuth from '../helpers/basic_auth';
-import jwtAuth from '../helpers/jwt_auth';
+import userHandler from '../modules/users/api_handlers.js';
+import basicAuth from '../helpers/basic_auth.js';
+import jwtAuth from '../helpers/jwt_auth.js';
 
 const router = Router();
 

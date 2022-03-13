@@ -1,6 +1,6 @@
 import auth from 'basic-auth';
-import err from './error';
-import utils from './utils';
+import err from './error.js';
+import utils from './utils.js';
 
 const checkBasic = async (req, res, next) => {
     const user = auth(req);

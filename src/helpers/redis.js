@@ -1,5 +1,5 @@
 import redis from 'redis';
-import utils from './utils';
+import utils from './utils.js';
 
 const connectionPool = [];
 

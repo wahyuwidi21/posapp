@@ -2,17 +2,17 @@ import express from 'express';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import bodyParser from 'body-parser';
-import usersRouter from './src/routes/users';
-import rolesRouter from './src/routes/roles';
-import ownerLevelRouter from './src/routes/owner_level';
-import brandRouter from './src/routes/brand';
+import usersRouter from './src/routes/users.js';
+import rolesRouter from './src/routes/roles.js';
+import ownerLevelRouter from './src/routes/owner_level.js';
+import brandRouter from './src/routes/brand.js';
 import cors from 'cors';
+import config from './src/config/config.js';
+import mongoose from 'mongoose';
 // import minio from './src/helpers/minio';
-import config, { HOST } from './src/config/config';
 
 const port = process.env.PORT || 3000;
 const app = express();
-const mongoose = require('mongoose');
 const options = {
    autoIndex: false, // Don't build indexes
    maxPoolSize: config.pool.max,

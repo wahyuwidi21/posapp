@@ -1,7 +1,7 @@
-import schema from './model_handler';
-import utils from '../../helpers/utils';
-import CommandOwnerLevel from './command_domain';
-import QueryOwnerLevel from './query_domain';
+import schema from './model_handler.js';
+import utils from '../../helpers/utils.js';
+import CommandOwnerLevel from './command_domain.js';
+import QueryOwnerLevel from './query_domain.js';
 
 const command = new CommandOwnerLevel();
 const query = new QueryOwnerLevel();

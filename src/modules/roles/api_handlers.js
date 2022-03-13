@@ -1,7 +1,7 @@
-import schema from './model_handler';
-import utils from '../../helpers/utils';
-import CommandRole from './command_domain';
-import QueryRole from './query_domain';
+import schema from './model_handler.js';
+import utils from '../../helpers/utils.js';
+import CommandRole from './command_domain.js';
+import QueryRole from './query_domain.js';
 
 const command = new CommandRole();
 const query = new QueryRole();

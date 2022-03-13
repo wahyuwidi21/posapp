@@ -1,5 +1,6 @@
 'use strict';
-const mongoose = require('mongoose');
+
+import mongoose from 'mongoose';
 
 const roleSchema= new mongoose.Schema({
   owner_level: {
@@ -18,4 +19,4 @@ const roleSchema= new mongoose.Schema({
 });
 
 const role = mongoose.model('Owner_Level',roleSchema);
-module.exports = role;
+export default role;

@@ -1,5 +1,6 @@
-const Minio = require('minio');
-import utils from './utils';
+
+import Minio from 'minio';
+import utils from './utils.js';
 
 let minioClient;
 
@@ -86,7 +87,7 @@ const isBucketExist = (bucketName) => {
     }
   };
   
-  module.exports = {
+ export default {
     init,
     bucketCreate,
     bucketRemove,

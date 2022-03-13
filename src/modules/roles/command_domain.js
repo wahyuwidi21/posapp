@@ -1,7 +1,7 @@
-import utils from '../../helpers/utils';
-import err from '../../helpers/error';
-import QueryRole from './query_domain';
-import QueryBrand from '../brand/query_domain';
+import utils from '../../helpers/utils.js';
+import err from '../../helpers/error.js';
+import QueryRole from './query_domain.js';
+import QueryBrand from '../brand/query_domain.js';
 import moment from 'moment-timezone';
 
 export default class CommandRole {

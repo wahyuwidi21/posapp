@@ -1,5 +1,5 @@
-import OwnerLevel from './repositories';
-import utils from '../../helpers/utils';
+import OwnerLevel from './repositories.js';
+import utils from '../../helpers/utils.js';
 
 export default class QueryOwnerLevel {
     constructor() {

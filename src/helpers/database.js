@@ -1,4 +1,4 @@
-import config, { HOST } from '../config/config';
+import config, { HOST } from '../config/config.js';
 
 const mongoose = require('mongoose');
 const options = {

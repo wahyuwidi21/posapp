@@ -1,6 +1,6 @@
-import User from './repositories';
-import Brand from '../brand/repositories';
-import utils from '../../helpers/utils';
+import User from './repositories.js';
+import Brand from '../brand/repositories.js';
+import utils from '../../helpers/utils.js';
 import { Op } from 'sequelize';
 
 export default class QueryUser {

@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken';
-import err from './error';
-import utils from './utils';
-import User from '../modules/users/repositories';
+import err from './error.js';
+import utils from './utils.js';
+import User from '../modules/users/repositories.js';
 const user = new User();
 
 const jwtVerify = async (req, res, next) => {

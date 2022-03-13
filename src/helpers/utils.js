@@ -1,4 +1,4 @@
-import err from './error';
+import err from './error.js';
 
 const responseFail = (res, error) => {
     const {message, code} = error;
