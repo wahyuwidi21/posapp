@@ -22,7 +22,7 @@ const options = {
    family: 4 // Use IPv4, skip trying IPv6
  };
 // const uri = `mongodb://${config.USER}:${config.PASSWORD}@${config.HOST}:${config.PORT}/${config.DB}`;
-const uri = `mongodb://${config.HOST}:${config.PORT}/${config.DB}`;
+const uri = `mongodb+srv://${config.USER}:${config.PASSWORD}@${config.HOST}`;
 
 app.use(cors());
 app.use(helmet());
