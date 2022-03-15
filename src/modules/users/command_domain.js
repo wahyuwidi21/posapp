@@ -4,7 +4,7 @@ import QueryUser from "./query_domain.js";
 import QueryRole from "../roles/query_domain.js";
 import QueryOwnerLevel from "../owner_level/query_domain.js";
 import QueryBrand from "../brand/query_domain.js";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import moment from "moment-timezone";
 import jwt from "jsonwebtoken";
 import mailer from "../../helpers/mailer.js";
